@@ -1,0 +1,32 @@
+{
+  "name": "transaction-management",
+  "version": "1.0.0",
+  "description": "Scalable Playwright test automation starter",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:e2e": "playwright test --grep @e2e",
+    "test:api": "playwright test tests/transactions/TM_TC16",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "pw:install": "playwright install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mubeen-quadrant/Transaction-Management.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mubeen-quadrant/Transaction-Management/issues"
+  },
+  "homepage": "https://github.com/mubeen-quadrant/Transaction-Management#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "dotenv": "^17.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  }
+}
